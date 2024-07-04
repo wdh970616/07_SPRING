@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="board" class="com.ohgiraffers.common.BoardDTO">
+        <constructor-arg index="0" value="1"/>
+        <constructor-arg name="title" value="스프링 연습중"/>
+        <constructor-arg index="2" value="스프링 재밌겠네요. 열심히 해서 꼭 저만의 프로젝트를 성공시키고 싶네요 ㅎㅎ"/>
+        <constructor-arg name="writer" value="위성민"/>
+    </bean>
+</beans>
