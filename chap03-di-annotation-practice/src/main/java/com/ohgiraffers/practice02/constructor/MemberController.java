@@ -9,8 +9,12 @@ import java.util.Map;
 @Controller
 public class MemberController {
 
+    private final MemberService memberService;
+
     @Autowired
-    private MemberService memberService;
+    public MemberController(MemberService memberService) {
+        this.memberService = memberService;
+    }
 
     public Map<Long, MemberDTO> selectMember() {
         return memberService.selectMember();
