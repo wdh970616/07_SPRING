@@ -1,4 +1,4 @@
-package com.ohgiraffers.section02.initdestroy.subsection01.java;
+package com.ohgiraffers.section02.initdestroy.subsection02.annotation;
 
 import com.ohgiraffers.common.Beverage;
 import com.ohgiraffers.common.Bread;
